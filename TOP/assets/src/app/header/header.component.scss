@@ -1,0 +1,7 @@
+.must-be-filled {
+    border: 2px solid red;
+}
+
+li:has(a.active) {
+    color: red;
+}
